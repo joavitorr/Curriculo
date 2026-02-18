@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor Souza Martins - Estagiário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            color: #000;
+            background: #f5f5f5;
+            font-size: 10.5pt;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 0.75in;
+            min-height: 297mm;
+            position: relative;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+            .container {
+                padding: 0.5in;
+                margin: 0;
+            }
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 8px;
+        }
+
+        .header h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+
+        .header .title {
+            font-size: 11pt;
+            margin-bottom: 6px;
+            font-weight: normal;
+        }
+
+        .contact {
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Headers */
+        .section {
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+        }
+
+        /* Summary */
+        .summary {
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* Skills */
+        .skills-grid {
+            line-height: 1.5;
+        }
+
+        .skill-category {
+            margin-bottom: 4px;
+        }
+
+        .skill-category strong {
+            font-weight: bold;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 10px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .job-title-company {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .job-position {
+            font-style: italic;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .job li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+        }
+
+        .project-header {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .project-header a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .project-description {
+            line-height: 1.4;
+        }
+
+        .project ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .project li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 6px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .education-school {
+            font-weight: bold;
+        }
+
+        .education-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .education-degree {
+            font-size: 10pt;
+        }
+
+        /* Metrics highlighting */
+        strong.metric {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>João Vitor</h1>
+            <div class="title">Estagiário Web Design</div>
+            <div class="contact">
+                <a href="mailto:jsouzamartins113@gmail.com">jsouzamartins113@gmail.com</a> |
+                <a href="https://github.com/joavitorr" target="_blank">github.com/joavitorr</a> |
+                <a href="tel:+5547991806339">(47) 99180-6339</a>
+
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Sobre mim</div>
+            <div class="summary">
+                Sou natural de São Paulo, mas cresci em Brusque, Santa Catarina. Atualmente atuo como Aprendiz de Web Design na empresa de tecnologia Intelidata, em Brusque (SC). Busco uma oportunidade como estagiário em desenvolvimento para aplicar meus conhecimentos e habilidades na prática e evoluir profissionalmente.
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+    <div class="section">
+        <div class="section-title">Competências Técnicas</div>
+        <div class="skills-grid">
+        
+        <div class="skill-category">
+            <strong>Desenvolvimento Front-End:</strong> HTML5, CSS3, JavaScript, Manipulação de DOM, Design Responsivo (Mobile e Tablet), Estruturação de Layouts.
+        </div>
+
+        <div class="skill-category">
+            <strong>CMS e Ferramentas Web:</strong> WordPress, Elementor, Customização de Temas, Ajustes de CTA, Configuração de Upload, Noções de SEO
+        </div>
+
+        <div class="skill-category">
+            <strong>UI e Prototipagem:</strong> Figma, Criação de Wireframes, Prototipagem de Interfaces, Hierarquia Visual, Espaçamento e Uso Estratégico de Margens
+        </div>
+
+        <div class="skill-category">
+            <strong>Metodologias e Processos:</strong> Priorização com OKRs, Ambiente Ágil, Noções de Git, Resolução de Problemas Técnicos
+        </div>
+
+    </div>
+</div>
+
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Experiência Profissional</div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Intelidata</div>
+                    <div class="job-date">Abril 2025 - Presente</div>
+                </div>
+                <div class="job-position">Aprendiz</div>
+                <ul>
+                    <li>Iniciei minha trajetória como <strong>Aprendiz de Documentação</strong>, atuando na estruturação, revisão e padronização de documentos técnicos do software, garantindo <strong>clareza, consistência e organização das informações</strong></li>
+    
+                    <li>Após quatro meses, fui direcionado para a área de <strong>Web Design</strong>, assumindo o desenvolvimento de <strong>sites institucionais e páginas estratégicas</strong>, adaptando-me rapidamente a novos desafios técnicos e de negócio</li>
+    
+                    <li>Atualmente sou responsável pela <strong>criação e otimização de interfaces</strong>, contribuindo para soluções digitais alinhadas aos objetivos da empresa, com foco em <strong>experiência do usuário, performance e qualidade de entrega</strong></li>
+                </ul>
+            </div>
+
+           
+
+        <!-- Education & Languages -->
+        <div class="section">
+            <div class="section-title">Educação e idiomas</div>
+            <div class="education-item">
+                <strong>Bacharelado em Ciência da Computação</strong> | FURB | 2025 - presente
+            </div>
+            <div class="education-item" style="margin-top: 4px;">
+                <strong>Idiomas:</strong> English (Básico), Português (Nativo)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
